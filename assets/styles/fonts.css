@@ -20,8 +20,9 @@
   font-optical-sizing: auto;
   font-weight: 350;
   font-style: normal;
-  letter-spacing: 10px;
-  font-size: 69px;
+  letter-spacing: 8px;
+  font-size: 40px;
+  margin-bottom: 1rem;
 }
 
 .text-4xl.font-bold {

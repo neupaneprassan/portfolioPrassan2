@@ -69,7 +69,7 @@
 }
 
 p {
-  color: #ffffff !important; /* Dit verandert de kleur van alle paragrafen naar rood */
+  color: #000000 !important; /* Dit verandert de kleur van alle paragrafen naar rood */
 }
 
 /* Fullscreen Overlay */
