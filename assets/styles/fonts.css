@@ -3,9 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
 /* https://fonts.google.com/specimen/Epilogue*/
 
-#sinds-mijn-6-jaar-ben-ik-beginnen-tekenen-ik-ging-hiervoor-naar-slac-school-voor-tekenen-en-schilderen-in-leuven-mijn-vader-dacht-dat-tekenen-mijn-redding-zou-zijn-om-te-communiceren-ik-hoor-slecht-en-heb-daardoor-minder-feeling-met-sport-en-muziek-tekenen-geeft-me-een-kans-om-mezelf-te-uiten-tekenen-en-schilderen-zijn-een-grote-hobby-van-mij-het-geeft-me-rust-het-heeft-niets-te-maken-met-technologie-maar-met-het-talent-van-je-handen-ogen-en-hersenen-je-kan-tekenen-zonder-na-te-denken-en-dat-maakt-het-voor-mij-amusant-ik-ben-trots-op-mijn-tekeningen-tekenen-zal-ik-nooit-opgeven-omdat-ik-er-zo-van-geniet {
-  color: rgb(183, 160, 8);
-}
 .text-4xl.font-bold {
   font-family: "Epilogue", sans-serif;
   font-optical-sizing: auto;
@@ -27,6 +24,7 @@
 
 .text-4xl.font-bold {
   margin-bottom: 4rem;
+  line-height: 0.9;
 }
 
 .montserrat-bold {
@@ -128,6 +126,30 @@
   font-size: 5em;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}
+
+.el-drawer {
+  font-size: 5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: normal;
+}
+
+.site_title {
+  font-size: 5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: normal;
+}
+
+.contenthead {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-style: normal;
   line-height: normal;
 }

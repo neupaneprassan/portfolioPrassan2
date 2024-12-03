@@ -1,21 +1,30 @@
 /* Body element */
 body {
-  background-color: #d18383;
+  background-color: #ffdede;
   color: rgba(0, 0, 0, 0.8);
 }
 .light-mode body {
-  background-color: #e2e3e5;
-  color: #161717;
+  background-color: #f5ebc9;
+  color: #766822;
 }
 .dark-mode body {
-  background-color: #161715;
-  color: #ebf4f1;
-}
-.gray-mode body {
-  background-color: #c9d0d3;
-  color: #433422;
+  background-color: #000000;
+  color: #b2a757;
 }
 
+.dark-mode .contenthead {
+  color: #fff9ce;
+}
+.gray-mode .contenthead {
+  color: #480542;
+}
+.pagetitle .gray-mode body {
+  background-color: #d3ddab;
+  color: #4c3212;
+}
+.light-mode .contenthead {
+  color: rgb(183, 160, 8);
+}
 /* Active link */
 .router-link-active {
   border-bottom: 2px solid gray;
