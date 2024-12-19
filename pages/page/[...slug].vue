@@ -25,16 +25,16 @@
     </div>
 
     <ContentSlot>
-      <h1 class="pageTitle text-4xl font-bold">{{ post.title }}</h1>
+      <h1 class="pagetitle text-4xl font-bold">{{ post.title }}</h1>
       <p class="contenthead text-xl opacity-80 text-white">
         {{ post.description }}
       </p>
     </ContentSlot>
 
     <ContentDoc v-slot="{ doc }">
-      <article>
+      <div class="contentrender">
         <ContentRenderer :value="doc" />
-      </article>
+      </div>
     </ContentDoc>
 
     <div v-if="post.imagegallery && post.showgaller !== 'false'">

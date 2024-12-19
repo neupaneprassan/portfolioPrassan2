@@ -1,5 +1,5 @@
 <template>
-<div class="w-full h-full no-print">
+  <div class="w-full h-full no-print">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -8,12 +8,10 @@
 
 <script setup>
 useHead({
-  title: 'Bureaupixel Example Decap & Nuxt',
-  meta: [
-    { name: 'description', content: 'Example for students' }
-  ],
+  title: "Bureaupixel Example Decap & Nuxt",
+  meta: [{ name: "description", content: "Example for students" }],
   htmlAttrs: {
-    lang: 'en'
-  }
-})
+    lang: "en",
+  },
+});
 </script>

@@ -1,29 +1,46 @@
 /* Body element */
-body {
-  background-color: #ffdede;
-  color: rgba(0, 0, 0, 0.8);
+
+.light-mode body {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(#000000 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
+}
+.dark-mode body {
+  background-color: #121240;
+  opacity: 0.8;
+  background-image: radial-gradient(#6e82ba 0.5px, #0a0a3e 0.5px);
+  background-size: 10px 10px;
+}
+.gray-mode body {
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image: radial-gradient(#b8b8b8 0.5px, #3b3b3b 0.5px);
+  background-size: 10px 10px;
 }
 .light-mode body {
   background-color: #f5ebc9;
-  color: #766822;
+  color: #111a5f;
 }
 .dark-mode body {
-  background-color: #000000;
-  color: #b2a757;
+  background-color: #ffffff;
+  color: #ffffff;
 }
 
 .dark-mode .contenthead {
-  color: #fff9ce;
+  color: #ffffff;
 }
 .gray-mode .contenthead {
-  color: #480542;
+  color: #90fff0;
 }
-.pagetitle .gray-mode body {
-  background-color: #d3ddab;
-  color: #4c3212;
+.gray-mode .pagetitle {
+  color: #35ffe4;
+}
+.gray-mode .contentrender {
+  color: #ffffff;
 }
 .light-mode .contenthead {
-  color: rgb(183, 160, 8);
+  color: rgb(0, 13, 96);
 }
 /* Active link */
 .router-link-active {

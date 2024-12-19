@@ -19,3 +19,6 @@ ul,
 li {
   list-style: none;
 }
+.drawer {
+  max-width: 40vw;
+}
