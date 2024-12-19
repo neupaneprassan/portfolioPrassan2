@@ -4,7 +4,7 @@
       <Drawer />
     </div>
     <div class="mx-auto max-w-4xl space-y-6 pt-5">
-      <h1 class="pagetitle text-4xl font-bold">Search</h1>
+      <h1 class="pagetitle font-bold">Search</h1>
       <SearchBox />
     </div>
   </div>

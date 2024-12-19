@@ -25,8 +25,8 @@
     </div>
 
     <ContentSlot>
-      <h1 class="pagetitle text-4xl font-bold">{{ post.title }}</h1>
-      <p class="contenthead text-xl opacity-80 text-white">
+      <h1 class="pagetitle font-bold">{{ post.title }}</h1>
+      <p class="contenthead opacity-80 text-white">
         {{ post.description }}
       </p>
     </ContentSlot>
